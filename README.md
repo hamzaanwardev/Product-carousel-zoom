@@ -1,2 +1,2 @@
-# Product-carousel-zoom
+# Product Carousel Zoom
 Learn to use Product Carousel Zoom (Jquery) Plugin.
