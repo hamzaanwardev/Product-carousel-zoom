@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/jquery.exzoom.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Product Carousel With exzoom</title>
+</head>
+<body>
+
+    <div class="exzoom" id="exzoom">
+        <!-- Images -->
+        <div class="exzoom_img_box">
+          <ul class='exzoom_img_ul'>
+            <li><img src="img/1.jpeg"/></li>
+            <li><img src="img/2.jpeg"/></li>
+            <li><img src="img/3.jpg"/></li>
+            <li><img src="img/4.jpg"/></li>
+            <li><img src="img/5.jpg"/></li>
+          </ul>
+        </div>
+        
+        <div class="exzoom_nav"></div>
+        <!-- Nav Buttons -->
+        <p class="exzoom_btn">
+            <a href="javascript:void(0);" class="exzoom_prev_btn"> < </a>
+            <a href="javascript:void(0);" class="exzoom_next_btn"> > </a>
+        </p>
+      </div>
+    
+
+
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.exzoom.js"></script>
+    <script>
+        $(function(){
+
+            $("#exzoom").exzoom({});
+
+        });
+    </script>
+</body>
+</html>
